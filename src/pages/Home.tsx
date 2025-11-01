@@ -5,42 +5,43 @@ import ProjectCard from "@/components/ProjectCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import { Button } from "@/components/ui/button";
 import { Home, Sofa, Bed, Bath, Lightbulb, Ruler, ArrowRight } from "lucide-react";
-import kitchenImg from "@/assets/kitchen-design.jpg";
+import kitchenImg from "@/assets/Before and after com.png";
 import bedroomImg from "@/assets/bedroom-design.jpg";
-import livingRoomImg from "@/assets/living-room-design.jpg";
+import livingRoomImg from "@/assets/Elegant wall mouldin.png";
 
 const HomePage = () => {
   const services = [
     {
       icon: Home,
-      title: "Complete Home Interiors",
-      description: "End-to-end interior solutions for your entire home with personalized designs.",
+      title: "POP False Ceiling Design & Installation",
+      description:
+        "End-to-end interior solutions for your entire home with personalized designs.",
     },
     {
       icon: Sofa,
-      title: "Modular Kitchen",
-      description: "Functional and stylish kitchen designs tailored to your lifestyle.",
+      title: "Wall Moulding and Decorative POP Work",
+      description:
+        "Functional and stylish kitchen designs tailored to your lifestyle.",
     },
     {
       icon: Bed,
-      title: "Bedroom Designs",
-      description: "Create your perfect sanctuary with our custom bedroom solutions.",
+      title: "Waterproofing for Bathrooms and Kitchens",
+      description:
+        "Create your perfect sanctuary with our custom bedroom solutions.",
     },
     {
       icon: Bath,
-      title: "Bathroom Renovation",
-      description: "Modern bathroom designs that combine luxury with functionality.",
+      title: "Terrace and Roof Waterproof Coating",
+      description:
+        "Modern bathroom designs that combine luxury with functionality.",
     },
     {
       icon: Lightbulb,
-      title: "Lighting Solutions",
-      description: "Expert lighting design to enhance ambiance and functionality.",
+      title: "Wall Dampness Treatment and Repairs",
+      description:
+        "Expert lighting design to enhance ambiance and functionality.",
     },
-    {
-      icon: Ruler,
-      title: "Space Planning",
-      description: "Optimize your space with intelligent layout and design planning.",
-    },
+
   ];
 
   const projects = [
@@ -52,20 +53,23 @@ const HomePage = () => {
   const testimonials = [
     {
       name: "Priya Sharma",
-      role: "Homeowner, Mumbai",
-      content: "Livspace transformed our apartment into a dream home. The attention to detail and professionalism was outstanding!",
+      role: "Homeowner, Bangalore",
+      content:
+        "Maurya Plaster & Water Proofing transformed our apartment into a dream home. The attention to detail and professionalism was outstanding!",
       rating: 5,
     },
     {
       name: "Raj Patel",
-      role: "Homeowner, Delhi",
-      content: "From design to execution, everything was seamless. Our modular kitchen is exactly what we envisioned.",
+      role: "Homeowner, Bangalore",
+      content:
+        "From design to execution, everything was seamless. Our modular kitchen is exactly what we envisioned.",
       rating: 5,
     },
     {
       name: "Anita Reddy",
       role: "Homeowner, Bangalore",
-      content: "Exceptional service and beautiful designs. The team understood our needs perfectly and delivered beyond expectations.",
+      content:
+        "Exceptional service and beautiful designs. The team understood our needs perfectly and delivered beyond expectations.",
       rating: 5,
     },
   ];
@@ -173,10 +177,10 @@ const HomePage = () => {
           </div>
 
           <div className="text-center">
-            <Button size="lg" variant="outline" className="gap-2">
+            {/* <Button size="lg" variant="outline" className="gap-2">
               View All Projects
               <ArrowRight className="h-5 w-5" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

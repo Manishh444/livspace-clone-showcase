@@ -3,9 +3,12 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChefHat, Bed, Sofa, Bath, Baby, BookOpen } from "lucide-react";
-import kitchenImg from "@/assets/kitchen-design.jpg";
+import kitchenImg from "@/assets/Decorative wall moul.png";
 import bedroomImg from "@/assets/bedroom-design.jpg";
-import livingRoomImg from "@/assets/living-room-design.jpg";
+import livingRoomImg from "@/assets/Modern POP false cei.png";
+import terrace from "@/assets/Terrace waterproof c.png";
+import WaterProofing from "@/assets/Waterproofing work i.png";
+import terraceWaterproffig from "@/assets/Terrace Waterproofin.png";
 
 const Interiors = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -17,7 +20,7 @@ const Interiors = () => {
       title: "Modular Kitchen",
       description: "Contemporary kitchen designs with smart storage solutions",
       image: kitchenImg,
-      price: "Starting from ₹1,50,000",
+      // price: "Starting from ₹1,50,000",
     },
     {
       id: "bedroom",
@@ -25,7 +28,7 @@ const Interiors = () => {
       title: "Bedroom",
       description: "Cozy and elegant bedroom interiors for perfect rest",
       image: bedroomImg,
-      price: "Starting from ₹1,00,000",
+      // price: "Starting from ₹1,00,000",
     },
     {
       id: "living",
@@ -33,23 +36,23 @@ const Interiors = () => {
       title: "Living Room",
       description: "Stylish living spaces for family gatherings",
       image: livingRoomImg,
-      price: "Starting from ₹1,25,000",
+      // price: "Starting from ₹1,25,000",
     },
     {
       id: "bathroom",
       icon: Bath,
       title: "Bathroom",
       description: "Luxurious and functional bathroom designs",
-      image: kitchenImg,
-      price: "Starting from ₹80,000",
+      image: terrace,
+      // price: "Starting from ₹80,000",
     },
     {
       id: "kids",
       icon: Baby,
       title: "Kids Room",
       description: "Fun and functional spaces for children",
-      image: bedroomImg,
-      price: "Starting from ₹90,000",
+      image: WaterProofing,
+      // price: "Starting from ₹90,000",
     },
     {
       id: "study",
@@ -57,7 +60,15 @@ const Interiors = () => {
       title: "Study Room",
       description: "Productive workspaces and study areas",
       image: livingRoomImg,
-      price: "Starting from ₹70,000",
+      // price: "Starting from ₹70,000",
+    },
+    {
+      id: "terrace",
+      icon: BookOpen,
+      title: "Terrace",
+      description: "Beautifully designed terrace spaces",
+      image: terraceWaterproffig,
+      // price: "Starting from ₹70,000",
     },
   ];
 
@@ -67,6 +78,7 @@ const Interiors = () => {
     { id: "bedroom", label: "Bedroom" },
     { id: "living", label: "Living" },
     { id: "bathroom", label: "Bathroom" },
+    { id: "terrace", label: "terrace" },
   ];
 
   const filteredCategories =

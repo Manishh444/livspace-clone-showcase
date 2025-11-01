@@ -14,7 +14,8 @@ const About = () => {
     {
       icon: Users,
       title: "Customer First",
-      description: "We prioritize your vision and satisfaction in every project",
+      description:
+        "We prioritize your vision and satisfaction in every project",
     },
     {
       icon: Award,
@@ -41,9 +42,10 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">About Livspace</h1>
+            className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              About Maurya Plaster & Water Proofing
+            </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Transforming houses into dream homes since 2014
             </p>
@@ -58,22 +60,23 @@ const About = () => {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
+              viewport={{ once: true }}>
               <h2 className="text-3xl font-bold mb-6 text-center">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Livspace started with a simple mission: to make beautiful home interiors accessible
-                to everyone. What began as a small team of passionate designers has grown into
-                India's most trusted interior design platform.
+                Maurya Plaster & Water Proofingstarted with a simple mission: to
+                make beautiful home interiors accessible to everyone. What began
+                as a small team of passionate designers has grown into India's
+                most trusted interior design platform.
               </p>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                We combine expert craftsmanship with cutting-edge technology to deliver stunning
-                interiors that reflect your personality and lifestyle. Our end-to-end service ensures
-                a hassle-free experience from design to installation.
+                We combine expert craftsmanship with cutting-edge technology to
+                deliver stunning interiors that reflect your personality and
+                lifestyle. Our end-to-end service ensures a hassle-free
+                experience from design to installation.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Today, we've helped thousands of homeowners across India create spaces they love,
-                and we're just getting started.
+                Today, we've helped thousands of homeowners across India create
+                spaces they love, and we're just getting started.
               </p>
             </motion.div>
           </div>
@@ -91,10 +94,13 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="text-4xl md:text-5xl font-bold mb-2">{stat.value}</div>
-                <div className="text-sm md:text-base opacity-90">{stat.label}</div>
+                className="text-center">
+                <div className="text-4xl md:text-5xl font-bold mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-sm md:text-base opacity-90">
+                  {stat.label}
+                </div>
               </motion.div>
             ))}
           </div>
@@ -108,8 +114,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+            className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Values</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               The principles that guide everything we do
@@ -123,14 +128,15 @@ const About = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
+                transition={{ delay: index * 0.1 }}>
                 <Card className="h-full text-center border-none shadow-[var(--card-shadow)] hover:shadow-[var(--hover-shadow)] transition-shadow duration-300">
                   <CardContent className="p-6">
                     <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <value.icon className="h-8 w-8 text-primary" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
+                    <h3 className="text-xl font-semibold mb-3">
+                      {value.title}
+                    </h3>
                     <p className="text-muted-foreground">{value.description}</p>
                   </CardContent>
                 </Card>
@@ -141,7 +147,7 @@ const About = () => {
       </section>
 
       {/* Awards & Recognition */}
-      <section className="py-16 bg-secondary/30">
+      {/* <section className="py-16 bg-secondary/30">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -165,7 +171,7 @@ const About = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

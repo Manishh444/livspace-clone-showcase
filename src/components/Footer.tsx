@@ -11,12 +11,11 @@ const Footer = () => {
   ];
 
   const services = [
-    "Modular Kitchen",
-    "Living Room",
-    "Bedroom",
-    "Bathroom",
-    "Kids Room",
-    "Study Room",
+    "POP False Ceiling Design & Installation",
+    "Wall Moulding and Decorative POP Work",
+    "Waterproofing for Bathrooms and Kitchens",
+    "Terrace and Roof Waterproof Coating",
+    "Wall Dampness Treatment and Repairs",
   ];
 
   return (
@@ -25,21 +24,32 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">Livspace</h3>
+            <h3 className="text-xl font-bold mb-4 text-primary">
+              Maurya Plaster & Water Proofing
+            </h3>
             <p className="text-sm text-background/80 mb-4">
-              Transforming houses into dream homes with beautiful, functional interior designs.
+              Transforming houses into dream homes with beautiful, functional
+              interior designs.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-background/80 hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-background/80 hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-background/80 hover:text-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-background/80 hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -53,8 +63,7 @@ const Footer = () => {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className="text-sm text-background/80 hover:text-primary transition-colors"
-                  >
+                    className="text-sm text-background/80 hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -81,16 +90,22 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-background/80">
-                  123 Design Street, Interior City, IN 12345
+                  Baburao complex, 6 & 7, new airport road, Gowdara Badavane,
+                  cross, Sonnapanahalli, Bettahalsoor, Bengaluru, Karnataka
+                  562157
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm text-background/80">+91 1800 123 4567</span>
+                <span className="text-sm text-background/80">
+                  +91 98441 24349
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm text-background/80">hello@livspace.com</span>
+                <span className="text-sm text-background/80">
+                  hello@example.com
+                </span>
               </li>
             </ul>
           </div>
@@ -98,7 +113,8 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-sm text-background/60">
-            © {new Date().getFullYear()} Livspace. All rights reserved.
+            © {new Date().getFullYear()} Maurya Plaster & Water Proofing. All
+            rights reserved.
           </p>
         </div>
       </div>

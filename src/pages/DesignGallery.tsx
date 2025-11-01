@@ -1,8 +1,17 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import kitchenImg from "@/assets/kitchen-design.jpg";
-import bedroomImg from "@/assets/bedroom-design.jpg";
-import livingRoomImg from "@/assets/living-room-design.jpg";
+import kitchenImg from "@/assets/Waterproofing membra.png";
+import bedroomImg from "@/assets/Wall dampness treatm.png";
+import livingRoomImg from "@/assets/Terrace waterproof c.png";
+import terrace from "@/assets/Elegant wall mouldin.png";
+import wall from "@/assets/Decorative wall moul.png";
+import room from "@/assets/Modern POP false cei.png";
+import toilet from "@/assets/Waterproofing work i.png";
+import kids from "@/assets/Before and after com.png";
+import water1 from "@/assets/Exterior Wall Waterp.png";
+import water2 from "@/assets/Terrace Waterproofin.png";
+import water3 from "@/assets/SS WATERPROOFING SER.png";
+
 
 const DesignGallery = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
@@ -11,12 +20,15 @@ const DesignGallery = () => {
     { id: 1, image: kitchenImg, title: "Modern Kitchen", category: "Kitchen" },
     { id: 2, image: bedroomImg, title: "Master Bedroom", category: "Bedroom" },
     { id: 3, image: livingRoomImg, title: "Living Room", category: "Living" },
-    { id: 4, image: kitchenImg, title: "Contemporary Kitchen", category: "Kitchen" },
-    { id: 5, image: bedroomImg, title: "Kids Bedroom", category: "Bedroom" },
-    { id: 6, image: livingRoomImg, title: "Luxury Living", category: "Living" },
-    { id: 7, image: kitchenImg, title: "Compact Kitchen", category: "Kitchen" },
-    { id: 8, image: bedroomImg, title: "Guest Room", category: "Bedroom" },
+    { id: 4, image: terrace, title: "Contemporary Kitchen", category: "Kitchen" },
+    { id: 5, image: wall, title: "Kids Bedroom", category: "Bedroom" },
+    { id: 6, image: room, title: "Luxury Living", category: "Living" },
+    { id: 7, image: toilet, title: "Compact Kitchen", category: "Kitchen" },
+    { id: 8, image: kids, title: "Guest Room", category: "Bedroom" },
     { id: 9, image: livingRoomImg, title: "Cozy Living Space", category: "Living" },
+    { id: 9, image: water3, title: "Cozy Living Space", category: "Living" },
+    { id: 9, image: water2, title: "Cozy Living Space", category: "Living" },
+    { id: 9, image: water1, title: "Cozy Living Space", category: "Living" },
   ];
 
   return (
