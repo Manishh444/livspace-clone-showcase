@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChefHat, Bed, Sofa, Bath, Baby, BookOpen } from "lucide-react";
-import kitchenImg from "@/assets/Decorative wall moul.png";
-import bedroomImg from "@/assets/bedroom-design.jpg";
-import livingRoomImg from "@/assets/Modern POP false cei.png";
-import terrace from "@/assets/Terrace waterproof c.png";
-import WaterProofing from "@/assets/Waterproofing work i.png";
+import kitchenImg from "@/assets/kitchen.jpg";
+import bedroomImg from "@/assets/bedroom1.jpg";
+import livingRoomImg from "@/assets/living2.jpg";
+import terrace from "@/assets/livingRoom1.jpg";
+import WaterProofing from "@/assets/bedroom2.jpg";
 import terraceWaterproffig from "@/assets/Terrace Waterproofin.png";
 
 const Interiors = () => {
@@ -17,8 +17,8 @@ const Interiors = () => {
     {
       id: "kitchen",
       icon: ChefHat,
-      title: "Modular Kitchen",
-      description: "Contemporary kitchen designs with smart storage solutions",
+      title: "Kitchen",
+      description: "Contemporary kitchen designs.",
       image: kitchenImg,
       // price: "Starting from ₹1,50,000",
     },
@@ -41,7 +41,7 @@ const Interiors = () => {
     {
       id: "bathroom",
       icon: Bath,
-      title: "Bathroom",
+      title: "Bedroom",
       description: "Luxurious and functional bathroom designs",
       image: terrace,
       // price: "Starting from ₹80,000",
@@ -57,8 +57,8 @@ const Interiors = () => {
     {
       id: "study",
       icon: BookOpen,
-      title: "Study Room",
-      description: "Productive workspaces and study areas",
+      title: "Living Room",
+      description: "Productive workspaces.",
       image: livingRoomImg,
       // price: "Starting from ₹70,000",
     },
@@ -77,7 +77,7 @@ const Interiors = () => {
     { id: "kitchen", label: "Kitchen" },
     { id: "bedroom", label: "Bedroom" },
     { id: "living", label: "Living" },
-    { id: "bathroom", label: "Bathroom" },
+    { id: "bathroom", label: "Kids Bedroom" },
     { id: "terrace", label: "terrace" },
   ];
 
@@ -148,7 +148,7 @@ const Interiors = () => {
                     <h3 className="text-2xl font-semibold mb-2">{category.title}</h3>
                     <p className="text-muted-foreground mb-4">{category.description}</p>
                     <p className="text-primary font-semibold mb-4">{category.price}</p>
-                    <Button className="w-full">Explore Designs</Button>
+                    {/* <Button className="w-full">Explore Designs</Button> */}
                   </CardContent>
                 </Card>
               </motion.div>

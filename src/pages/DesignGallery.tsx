@@ -12,6 +12,14 @@ import kids from "@/assets/ceilingfanpop.jpg";
 import water1 from "@/assets/wtfp4.jpg";
 import water2 from "@/assets/wtfp.jpg";
 import water3 from "@/assets/wtfp6.jpg";
+import material1 from "@/assets/pic13.jpg";
+import material2 from "@/assets/pic15.jpg";
+import material3 from "@/assets/pic16.jpg";
+import material4 from "@/assets/pic17.jpg";
+import material5 from "@/assets/pic23.jpg";
+import material6 from "@/assets/pic24.jpg";
+import material7 from "@/assets/pic28.jpg";
+
 
 const DesignGallery = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
@@ -37,9 +45,60 @@ const DesignGallery = () => {
       title: "Cozy Living Space",
       category: "Living",
     },
-    { id: 10, image: water3, title: "Water Proofing Solution", category: "Living" },
-    { id: 11, image: water2, title: "Water Proofing Solution", category: "Living" },
-    { id: 12, image: water1, title: "Water Proofing Solution", category: "Living" },
+    {
+      id: 10,
+      image: water3,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 11,
+      image: water2,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 12,
+      image: water1,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 13,
+      image: material1,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 14,
+      image: material2,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 15,
+      image: material3,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 16,
+      image: material5,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 17,
+      image: material6,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
+    {
+      id: 18,
+      image: material7,
+      title: "Water Proofing Solution",
+      category: "Living",
+    },
   ];
 
   return (

@@ -13,9 +13,9 @@ import {
   Ruler,
   ArrowRight,
 } from "lucide-react";
-import kitchenImg from "@/assets/Before and after com.png";
-import bedroomImg from "@/assets/bedroom-design.jpg";
-import livingRoomImg from "@/assets/Elegant wall mouldin.png";
+import kitchenImg from "@/assets/kitchen.jpg";
+import bedroomImg from "@/assets/bedroom1.jpg";
+import livingRoomImg from "@/assets/livingRoom1.jpg";
 
 const HomePage = () => {
   const services = [
