@@ -39,7 +39,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary">Maurya Plaster & Water Proofing</div>
+            <div className="text-2xl font-bold text-primary">
+              Maurya Plaster & Water Proofing
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -60,10 +62,12 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm" className="gap-2">
-              <Phone className="h-4 w-4" />
-              <span>Get Free Quote</span>
-            </Button>
+            <a href="tel:+919844124349">
+              <Button variant="outline" size="sm" className="gap-2">
+                <Phone className="h-4 w-4" />
+                <span>Get Free Quote</span>
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

@@ -31,11 +31,11 @@ const Contact = () => {
       title: "Call Us",
       details: "+9198441 24349",
     },
-    {
-      icon: Mail,
-      title: "Email Us",
-      details: "hello@Example.com",
-    },
+    // {
+    //   icon: Mail,
+    //   title: "Email Us",
+    //   details: "hello@Example.com",
+    // },
     {
       icon: Clock,
       title: "Working Hours",
@@ -52,9 +52,12 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Get In Touch
-            </h1>
+            <a href="tel:tel:+919844124349">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                Get In Touch
+              </h1>
+            </a>
+
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Ready to start your dream home project? We'd love to hear from you
             </p>
@@ -197,9 +200,11 @@ const Contact = () => {
             <p className="text-lg mb-6 opacity-90">
               Schedule a call with our design consultant
             </p>
-            <Button size="lg" variant="secondary">
-              Schedule a Call
-            </Button>
+            <a href="tel:tel:+919844124349">
+              <Button size="lg" variant="secondary">
+                Schedule a Call
+              </Button>
+            </a>
           </motion.div>
         </div>
       </section>

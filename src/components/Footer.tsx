@@ -101,12 +101,12 @@ const Footer = () => {
                   +91 98441 24349
                 </span>
               </li>
-              <li className="flex items-center gap-2">
+              {/* <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
                 <span className="text-sm text-background/80">
                   hello@example.com
                 </span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

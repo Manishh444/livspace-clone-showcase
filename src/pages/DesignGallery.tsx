@@ -39,11 +39,13 @@ const DesignGallery = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Design Gallery</h1>
+            className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Design Gallery
+            </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Browse through our collection of stunning interior designs for inspiration
+              Browse through our collection of stunning interior designs for
+              inspiration
             </p>
           </motion.div>
         </div>
@@ -61,8 +63,7 @@ const DesignGallery = () => {
                 transition={{ delay: index * 0.05 }}
                 className="break-inside-avoid group cursor-pointer"
                 onMouseEnter={() => setHoveredId(design.id)}
-                onMouseLeave={() => setHoveredId(null)}
-              >
+                onMouseLeave={() => setHoveredId(null)}>
                 <div className="relative overflow-hidden rounded-lg shadow-[var(--card-shadow)] hover:shadow-[var(--hover-shadow)] transition-all duration-300">
                   <img
                     src={design.image}
@@ -73,11 +74,16 @@ const DesignGallery = () => {
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/50 to-transparent flex flex-col justify-end p-6 text-background"
-                    >
-                      <span className="text-sm text-primary mb-2">{design.category}</span>
-                      <h3 className="text-xl font-semibold mb-2">{design.title}</h3>
-                      <button className="text-sm underline text-left">View Details →</button>
+                      className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/50 to-transparent flex flex-col justify-end p-6 text-background">
+                      <span className="text-sm text-primary mb-2">
+                        {design.category}
+                      </span>
+                      <h3 className="text-xl font-semibold mb-2">
+                        {design.title}
+                      </h3>
+                      <button className="text-sm underline text-left">
+                        View Details →
+                      </button>
                     </motion.div>
                   )}
                 </div>
@@ -93,15 +99,16 @@ const DesignGallery = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
             <h2 className="text-3xl font-bold mb-4">Love What You See?</h2>
             <p className="text-lg mb-6 opacity-90 max-w-2xl mx-auto">
               Let's bring these designs to life in your home
             </p>
-            <button className="bg-background text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-background/90 transition-colors">
-              Get Free Consultation
-            </button>
+            <a href="tel:tel:+919844124349">
+              <button className="bg-background text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-background/90 transition-colors">
+                Get Free Consultation
+              </button>
+            </a>
           </motion.div>
         </div>
       </section>

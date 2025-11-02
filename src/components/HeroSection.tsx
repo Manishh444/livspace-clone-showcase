@@ -23,8 +23,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-background mb-6 leading-tight"
-          >
+            className="text-5xl md:text-6xl lg:text-7xl font-bold text-background mb-6 leading-tight">
             Design Your
             <span className="text-primary"> Dream Home</span>
           </motion.h1>
@@ -33,33 +32,36 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-lg md:text-xl text-background/90 mb-8"
-          >
-            Transform your living space with our expert interior design services.
-            From modular kitchens to complete home makeovers.
+            className="text-lg md:text-xl text-background/90 mb-8">
+            Transform your living space with our expert POP false ceiling and
+            waterproofing services.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4"
-          >
-            <Button size="lg" className="gap-2 text-base">
-              Get Free Consultation
-              <ArrowRight className="h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="bg-background/10 backdrop-blur-sm border-background/30 text-background hover:bg-background/20">
+            className="flex flex-col sm:flex-row gap-4">
+            <a href="tel:+919844124349">
+              <Button size="lg" className="gap-2 text-base">
+                Get Free Consultation
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
+
+            {/* <Button
+              size="lg"
+              variant="outline"
+              className="bg-background/10 backdrop-blur-sm border-background/30 text-background hover:bg-background/20">
               View Our Work
-            </Button>
+            </Button> */}
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-12 flex items-center gap-8 text-background/90"
-          >
+            className="mt-12 flex items-center gap-8 text-background/90">
             <div>
               <div className="text-3xl font-bold text-primary">5000+</div>
               <div className="text-sm">Happy Customers</div>

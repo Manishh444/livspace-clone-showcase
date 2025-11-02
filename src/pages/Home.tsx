@@ -93,11 +93,11 @@ const HomePage = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+            className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive interior design solutions for every room in your home
+              Comprehensive interior design solutions for every room in your
+              home
             </p>
           </motion.div>
 
@@ -122,8 +122,7 @@ const HomePage = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+            className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">How It Works</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Simple, transparent process from concept to completion
@@ -138,9 +137,10 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="text-6xl font-bold text-primary/20 mb-4">{step.number}</div>
+                className="text-center">
+                <div className="text-6xl font-bold text-primary/20 mb-4">
+                  {step.number}
+                </div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                 <p className="text-muted-foreground">{step.description}</p>
               </motion.div>
@@ -156,8 +156,7 @@ const HomePage = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+            className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Explore our latest interior design transformations
@@ -192,8 +191,7 @@ const HomePage = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+            className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">What Our Clients Say</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Real stories from satisfied homeowners
@@ -220,16 +218,21 @@ const HomePage = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Home?</h2>
+            viewport={{ once: true }}>
+            <h2 className="text-4xl font-bold mb-4">
+              Ready to Transform Your Home?
+            </h2>
+
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-              Get a free consultation with our design experts and start your journey to a beautiful home
+              Get a free consultation with our design experts and start your
+              journey to a beautiful home
             </p>
-            <Button size="lg" variant="secondary" className="gap-2">
-              Schedule Free Consultation
-              <ArrowRight className="h-5 w-5" />
-            </Button>
+            <a href="tel:tel:+919844124349">
+              <Button size="lg" variant="secondary" className="gap-2">
+                Schedule Free Consultation
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
           </motion.div>
         </div>
       </section>
