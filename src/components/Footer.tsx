@@ -12,7 +12,8 @@ const Footer = () => {
 
   const services = [
     "POP False Ceiling Design & Installation",
-    "Wall Moulding and Decorative POP Work",
+    "Tile adhesives and grouts",
+    "GYPSAM Board and Powder dealers",
     "Waterproofing for Bathrooms and Kitchens",
     "Terrace and Roof Waterproof Coating",
     "Wall Dampness Treatment and Repairs",

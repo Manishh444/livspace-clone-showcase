@@ -42,7 +42,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+919844124349">
+            <a href="tel:+917892233147 ">
               <Button size="lg" className="gap-2 text-base">
                 Get Free Consultation
                 <ArrowRight className="h-5 w-5" />

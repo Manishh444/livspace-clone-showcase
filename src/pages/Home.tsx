@@ -4,7 +4,15 @@ import ServiceCard from "@/components/ServiceCard";
 import ProjectCard from "@/components/ProjectCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import { Button } from "@/components/ui/button";
-import { Home, Sofa, Bed, Bath, Lightbulb, Ruler, ArrowRight } from "lucide-react";
+import {
+  Home,
+  Sofa,
+  Bed,
+  Bath,
+  Lightbulb,
+  Ruler,
+  ArrowRight,
+} from "lucide-react";
 import kitchenImg from "@/assets/Before and after com.png";
 import bedroomImg from "@/assets/bedroom-design.jpg";
 import livingRoomImg from "@/assets/Elegant wall mouldin.png";
@@ -41,13 +49,16 @@ const HomePage = () => {
       description:
         "Expert lighting design to enhance ambiance and functionality.",
     },
-
   ];
 
   const projects = [
     { image: kitchenImg, title: "Modern Modular Kitchen", category: "Kitchen" },
     { image: bedroomImg, title: "Contemporary Bedroom", category: "Bedroom" },
-    { image: livingRoomImg, title: "Elegant Living Room", category: "Living Room" },
+    {
+      image: livingRoomImg,
+      title: "Elegant Living Room",
+      category: "Living Room",
+    },
   ];
 
   const testimonials = [
@@ -75,10 +86,26 @@ const HomePage = () => {
   ];
 
   const steps = [
-    { number: "01", title: "Consultation", description: "Share your vision with our design experts" },
-    { number: "02", title: "Design", description: "Get personalized 3D designs and quotes" },
-    { number: "03", title: "Execution", description: "Watch your dream home come to life" },
-    { number: "04", title: "Handover", description: "Move into your beautiful new space" },
+    {
+      number: "01",
+      title: "Consultation",
+      description: "Share your vision with our design experts",
+    },
+    {
+      number: "02",
+      title: "Design",
+      description: "Get personalized 3D designs and quotes",
+    },
+    {
+      number: "03",
+      title: "Execution",
+      description: "Watch your dream home come to life",
+    },
+    {
+      number: "04",
+      title: "Handover",
+      description: "Move into your beautiful new space",
+    },
   ];
 
   return (
@@ -227,7 +254,7 @@ const HomePage = () => {
               Get a free consultation with our design experts and start your
               journey to a beautiful home
             </p>
-            <a href="tel:tel:+919844124349">
+            <a href="tel:tel:+917892233147 ">
               <Button size="lg" variant="secondary" className="gap-2">
                 Schedule Free Consultation
                 <ArrowRight className="h-5 w-5" />

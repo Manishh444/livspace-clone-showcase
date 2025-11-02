@@ -24,12 +24,12 @@ const Contact = () => {
       icon: MapPin,
       title: "Visit Us",
       details:
-        "Baburao complex, 6 & 7, new airport road, Gowdara Badavane, cross, Sonnapanahalli, Bettahalsoor, Bengaluru, Karnataka 562157",
+        "No 6&7 BABURAO COMPLEX NEW INTERNATIONAL AIRPORT ROAD BETTAHALSUR CROSS BUS STOP BENGALURU NORTH - 562157",
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: "+9198441 24349",
+      details: "+917892233147 ",
     },
     // {
     //   icon: Mail,
@@ -52,7 +52,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center">
-            <a href="tel:tel:+919844124349">
+            <a href="tel:tel:+917892233147 ">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Get In Touch
               </h1>
@@ -200,7 +200,7 @@ const Contact = () => {
             <p className="text-lg mb-6 opacity-90">
               Schedule a call with our design consultant
             </p>
-            <a href="tel:tel:+919844124349">
+            <a href="tel:tel:+917892233147 ">
               <Button size="lg" variant="secondary">
                 Schedule a Call
               </Button>

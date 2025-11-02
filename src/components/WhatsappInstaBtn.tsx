@@ -7,7 +7,7 @@ import InstaIcon from "../assets/insta.jpg";
  */
 const WhatsappInstaBtn = () => {
   // WhatsApp phone number (replace with actual business number)
-  const whatsappNumber = "+919844124349"; // Replace with actual number
+  const whatsappNumber = "+917892233147 "; // Replace with actual number
   const message = "Hi! I would like to know more about your services.";
 
   const openWhatsApp = () => {
@@ -19,7 +19,7 @@ const WhatsappInstaBtn = () => {
   };
 
   const openInsta = () => {
-    const url = `https://www.instagram.com/maurya_waterproofing_562157/?igsh=OGxwNm9xNmJ1MjZp#`;
+    const url = `https://www.instagram.com/mauryawaterproofing562157/`;
     window.open(url, "_blank");
   };
 
