@@ -94,14 +94,14 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <div className="px-4 pt-2">
+              {/* <div className="px-4 pt-2">
                 <a href="tel:+919844124349">
                   <Button className="w-full gap-2">
                     <Phone className="h-4 w-4" />
                     <span>Get Free Quote</span>
                   </Button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         )}
