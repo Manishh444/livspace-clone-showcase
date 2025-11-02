@@ -95,10 +95,12 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="px-4 pt-2">
-                <Button className="w-full gap-2">
-                  <Phone className="h-4 w-4" />
-                  <span>Get Free Quote</span>
-                </Button>
+                <a href="tel:+919844124349">
+                  <Button className="w-full gap-2">
+                    <Phone className="h-4 w-4" />
+                    <span>Get Free Quote</span>
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

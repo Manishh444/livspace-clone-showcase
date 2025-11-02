@@ -11,6 +11,7 @@ import DesignGallery from "./pages/DesignGallery";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import WhatsappInstaBtn from "./components/WhatsappInstaBtn";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
       <BrowserRouter>
         <div className="flex flex-col min-h-screen">
           <Navbar />
+          <WhatsappInstaBtn />
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
