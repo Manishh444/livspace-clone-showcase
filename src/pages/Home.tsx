@@ -16,6 +16,10 @@ import {
 import kitchenImg from "@/assets/kitchen.jpg";
 import bedroomImg from "@/assets/bedroom1.jpg";
 import livingRoomImg from "@/assets/livingRoom1.jpg";
+import { fosrocImg } from "@/utils/imageutils";
+import { gyprocImg } from "@/utils/imageutils";
+import { roff } from "@/utils/imageutils";
+
 
 const HomePage = () => {
   const services = [
@@ -52,12 +56,24 @@ const HomePage = () => {
   ];
 
   const projects = [
-    { image: kitchenImg, title: "Modern Modular Kitchen", category: "Kitchen" },
+    {
+      image: "/product_img/fosroc/IMG-20251110-WA0014.jpg",
+      title: "FOSROC",
+      category: "Kitchen",
+      catalogImages: fosrocImg,
+    },
     { image: bedroomImg, title: "Contemporary Bedroom", category: "Bedroom" },
     {
       image: livingRoomImg,
       title: "Elegant Living Room",
       category: "Living Room",
+      catalogImages: gyprocImg,
+    },
+    {
+      image: kitchenImg,
+      title: "Modern Kitchen",
+      category: "Kitchen",
+      catalogImages: roff,
     },
   ];
 
@@ -197,6 +213,7 @@ const HomePage = () => {
                 image={project.image}
                 title={project.title}
                 category={project.category}
+                catalogImages={project.catalogImages} // <-- IMPORTANT
                 delay={index * 0.1}
               />
             ))}
